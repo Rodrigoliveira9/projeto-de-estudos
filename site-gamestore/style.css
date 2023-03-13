@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --corlink:#a58d03;
+}
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+header h1{
+    font-size: 3em;
+    color:white;
+    text-transform: uppercase;
+
+}
+header h2{
+    font-size: 1.5em;
+    color:gray;
+    font-variant: small-caps;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+nav > a{
+    color:gray;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    
+}
+
+nav >a:hover{
+    background-color: gray;
+    color: black;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+    padding: 5px;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, black, gray );
+    color: white;
+
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-size: 1em;
+    color: gray;
+}
+
+
+li{
+    line-height: 45px;
+    font-size: 20px;
+    text-align: left;
+}
+
+main input{ 
+   background-color: transparent;
+    color:gray;
+    margin: 5px;  
+    padding: 5px; 
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+main input:hover{
+    cursor: pointer;
+    background-image:linear-gradient(to bottom, black, rgb(54, 54, 54));
+}
+
+article{
+    text-align: center;
+    margin: auto;
+    max-width:76vw;
+    min-height: 46vh;
+    line-height: 30px;
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+}
+
+article h2{
+    padding: 10px;
+    font-variant: small-caps;
+    font-size: 1.8em;
+}
+
+article h3{
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+article a:hover{
+    text-decoration: underline;
+    background-color:var(--corlink);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+} 
+
+.parallax{
+    background-color: black;
+    background-image: url('imagens/antigo.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.antigo{
+    margin: auto;
+    max-width: 200px;
+    min-width: 200px;
+    border-radius: 10%;
+}
+
+.antigo:hover{
+    transform: scale(1.1);
+    transition-delay: 0.3s;
+
+}
+
+.externo::after{
+    content:' \1F517';
+}
+
+main img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+aside img{
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin:auto;
+    padding: 5px;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right, black, gray );
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+aside p{
+    line-height: 30px;
+}
+
+aside a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px;
+    background-color: black;
+}
+
+aside a:hover{
+    text-decoration: underline;
+    
+}
+
+.xbox-360{
+    text-align:center;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, black, gray );
+    max-width: 300px;
+    min-height: 400px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.459);
+}
+
+.xbox-360:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.xbox-360 img{
+    max-width:150px;
+    max-height: 150px;
+}
+
+.xbox-one{
+    text-align: center;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, black, gray );
+    max-width: 300px;
+    min-height: 400px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.459);
+}
+
+.xbox-one:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.xbox-one img{
+    max-width:200px;
+    max-height: 200px;
+}
+
+.ps4{
+    text-align: center;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, black, gray );
+    max-width: 300px;
+    min-height: 450px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.459);
+}
+
+.ps4:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.ps4 img{
+    max-width:150px;
+    max-height: 150px;
+}
+
+.botao{
+    background-color:black;
+    color:gray;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px;
+    margin: 10px;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-image: linear-gradient(to top, black, rgba(128, 128, 128, 0.37) );
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+} 
+
+footer p{
+    font-size: 1.3em;
+    font-variant: small-caps;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover{
+   background-color: var(--corlink);
+   color: black;
+   transition-duration: 0.3s;
+   border-radius: 4px;
+}
