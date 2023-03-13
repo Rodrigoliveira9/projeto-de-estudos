@@ -1,0 +1,48 @@
+tabela de corações
+#001726
+#87B3D0
+#0077C7
+#4DB8FF
+#005994
+
+fontes
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Poppins:wght@500&display=swap');
+
+font-family: 'Lilita One', cursive;
+
+navegador
+CIÊNCIA
+VIAGEM
+ANIMAIS
+HISTÓRIA
+MEIO AMBIENTE
+
+
+2 dados curiosos sobre os gatos que você não sabia
+
+Com aparência elegante e extremamente inteligentes, os gatos se tornaram animais domésticos que conquistaram os corações de diversos tutores. Só perdem para os cachorros na corrida para serem “os melhores amigos do homem”. 
+
+Se você tem um felino como companhia, vale conhecer alguns fatos sobre eles e entender melhor seu comportamento.
+
+[imagem]
+
+1. Gatos estão com os humanos há quase 10 mil anos
+Os gatos vivem entre os humanos desde as primeiras civilizações. Estudos mostram que esses pequenos felinos acompanham a humanidade há milhares de anos. 
+
+Um artigo publicado na revista Science, em 2004, relata a descoberta de um esqueleto de gato desenterrado no sul de Chipre. O esqueleto completo do animal estava intimamente associado a um enterro humano de 9 mil e 500 anos de idade, sugerindo que o felino de oito meses era domesticado. 
+
+2. Os gatos eram deuses egípcios?
+Os gatos estão entre os animais mais emblemáticos da arte e da cultura egípcia antiga. Segundo o Centro Americano de Pesquisa no Egito (ARCE, na sigla em inglês), os egípcios admiravam os felinos por sua natureza complexa e dual. Para eles, os gatos combinavam graça, fecundidade e gentileza, com agressividade, agilidade e perigo.
+
+(Veja também: Múmias raríssimas de leão descobertas no Egito)
+
+Mas é importante ressaltar que os egípcios não adoravam os gatos. Em vez disso, eles acreditavam que certas divindades, muitas vezes representadas com feições felinas, compartilhavam traços de caráter com os animais, explica a ARCE.
+Bastet é provavelmente a deusa felina mais conhecida do Egito. As oferendas feitas à essa deusa seguiam com desejos de saúde e filhos ou de vida e proteção.
+
+rodape
+
+Animais
+Meio ambiente
+História
+Ciência
+

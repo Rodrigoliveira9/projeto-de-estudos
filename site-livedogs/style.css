@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{ 
+
+--cor1:#f3f29d;
+--cor2:#F2EE00;
+--cor3:#BFBC00;
+--cor4:#737122;
+--cor5:#5e5c00;
+
+
+--fonte-padrao: Arial, Helvetica, sans-serif;
+--fonte-destaque:'Bebas Neue', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family:var(--fonte-padrao)
+}
+
+main img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 5px 0px 0px 0px;
+    border-radius: 30px;
+}
+
+header{
+    background-image:linear-gradient(to bottom, var(--cor1), var(--cor3));
+    padding-top: 20px;
+    min-height:100px;
+    text-align: center;
+    
+}
+
+header > h1{
+    color:var(--cor5);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 3.5em;
+}
+
+header p{
+    color:var(--cor5);
+    padding-top: 3px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 8px 0px 5px 0px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+nav >a:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+main{
+    background-color: white;
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor5);
+    padding: 5px;
+}
+
+main h2{
+    background-image:linear-gradient(to right, var(--cor1), transparent);
+    color:var(--cor5);
+    margin: 3px;
+    padding: 2px;    border-radius: 4px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+}
+
+main p{
+    font-family: var(--fonte-padrao);
+    padding:2px 0px;
+    margin: 2px;
+    text-align: justify;
+    text-indent: 2%;
+}
+
+strong{
+    color: var(--cor3);
+}
+
+a.externo{
+    text-decoration: none;
+    background-color: var(--cor4);
+    color:var(--cor1);
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.123); 
+}
+
+a.externo:hover{
+    background-color: var(--cor2);
+    color:var(--cor4);
+    text-decoration: underline;
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+
+ul.listaum{
+    background-color: var(--cor5);
+    color: white;
+    margin: 0px -5px 0px -5px;
+    padding: 1px 1px 1px 19px;
+    border-radius: 5px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+ul.listadois{
+    background-color: var(--cor5);
+    color: white;
+    margin: 0px -5px 0px -5px;
+    padding: 1px 1px 1px 19px;
+    text-align: justify;
+    line-height: 18px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+}
+
+.listadois li{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 2px 0px 0px 0px;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin: 10px -5px 30px -5px;
+    padding: 20px;
+    padding-bottom: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
+
+    position: relative;
+}
+
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width:92%;
+height:92%;
+
+}
+
+footer{
+    background-color:var(--cor3);
+    color:black;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+#pratica{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    color: var(--cor1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 2px;
+}
+
+abbr{
+    background-color:var(--cor3);
+    text-decoration: none;
+}
+
+abbr:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-decoration: underline;
+}
