@@ -1,0 +1,616 @@
+@charset "UTF-8";
+
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* config-global */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* variaveis */
+:root{
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulos:'Poppins', sans-serif;
+    --fonte-textos:'Raleway', sans-serif;
+
+    --cor1:#ffffff;
+    --cor2:#000000;
+    --cor3:#818181;
+    --cor4:#F3E3AF;
+    --cor5:#7b1b2c;
+    --cor6:#410d17;
+}
+/* cabeçalho */
+
+.fundo-cabecalho{
+    background-color: var(--cor2);
+    background-image: linear-gradient(rgb(0, 0, 0,0.97), 80%, rgba(123, 27, 45,0.7) ), url('imagens/garrafas-deitadas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+    gap: 10rem;
+    align-items: center;
+}
+
+.menu a{
+    margin: 35px;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-family: var(--fonte-titulos);
+    color: var(--cor4);
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.menu a:hover{
+    background-color: var(--cor4);
+    color: var(--cor6);
+    transition-duration: 0.5s;
+}
+
+.btn-01 button{
+   background-color: var(--cor5);
+   color: var(--cor4);
+   text-transform: uppercase;
+   font-family: var(--fonte-titulos);
+   font-weight: 600;
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+}
+
+.btn-01 button:hover{
+    background-color: var(--cor4);
+    color: #7B1B2C;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+/* nossa-historia */
+
+.conteudo-meio-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.meio-container h1{
+    color: var(--cor4);
+    font-family: var(--fonte-titulos);
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.meio-container p{
+    color: var(--cor4);
+    text-align: justify;
+    max-width: 70vw;
+    line-height: 30px;
+    text-indent: 3%;
+    font-family: var(--fonte-textos);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.emoji-livro::after{
+    content: '\1F56E';
+    margin-left: 5px;
+}
+
+.btn-02 button{
+    background-color: var(--cor5);
+    color: var(--cor4);
+    text-transform: uppercase;
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .btn-02 button:hover{
+    background-color: var(--cor4);
+    color: #7B1B2C;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+/* eventos */
+
+.section-txt{
+    padding: 10px;
+    text-align: center;
+}
+
+.section-txt h2{
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: var(--cor5);
+    padding: 10px;
+}
+
+.emoji-data:after{
+    content: '\1F4C5';
+    padding: 5px;
+}
+
+.section-txt p{
+    color: var(--cor6);
+    text-align:justify;
+    max-width: 90vw;
+    text-indent: 3%;
+    font-family: var(--fonte-textos);
+    font-size: 17px;
+    font-weight: 400;
+    margin: auto; 
+}
+
+.imagens{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+}
+
+.imagens img{ 
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    margin: 0px 68px 5px 68px;
+}
+
+.imagens img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.imagem-01 {
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+
+.imagem-01 span{
+    margin-top: 20px;
+    font-family: var(--fonte-titulos);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor5);
+}
+
+.imagem-01 p{
+    padding-top: 5px;
+    font-family: var(--fonte-textos);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.imagem-02 {
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+
+.imagem-02 span{
+    margin-top: 20px;
+    font-family: var(--fonte-titulos);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor5);
+}
+
+.imagem-02 p{
+    padding-top: 5px;
+    font-family: var(--fonte-textos);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-03 button{
+    background-color: var(--cor5);
+    color: var(--cor4);
+    text-transform: uppercase;
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-03{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-03 button:hover{
+    background-color: var(--cor4);
+    color: #7B1B2C;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+/* vinhos amostras */
+
+.fundo-vinhos{
+    background-color: black;
+    background-image: linear-gradient(rgb(123, 27, 45,0.7), 9%, rgba(0,0,0,0.97)), url('imagens/rolhas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vinho-geral img{
+    width: 250px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.vinho-geral{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.vinho-geral img{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.vinho-geral img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.titulo-vinhos h2{
+    color: var(--cor4);
+    font-size: 2rem;
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.vinho-geral li{
+    color: var(--cor4);
+    line-height: 30px;
+    text-align: center;
+    font-family: var(--fonte-textos);
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.vinho-geral p{
+    padding: 5px;
+    margin-top: 10px;
+    font-family: var(--fonte-titulos);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: var(--cor4);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor5);
+}
+
+.vinho-geral p:hover{
+    transform: scale(1.1);
+}
+
+.vinho-geral a{
+    color: var(--cor5);
+}
+/* loja-fisica */
+
+aside h2{
+    color: var(--cor5);
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+    font-weight: 600;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top:10px;
+}
+
+aside p{
+    color: var(--cor6);
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.loja-fisica{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 20px;
+}
+
+.loja-fisica img{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+
+.loja-fisica img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.externo::after{
+    content: '\1F30D';
+    padding: 5px;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.maps a{
+    background-color: var(--cor5);
+    color: var(--cor4);
+    text-transform: uppercase;
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.maps a:hover{
+    background-color: var(--cor4);
+    color: #7B1B2C;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+/* tabela */
+
+.fundo-tabela{
+    background-color: black;
+    background-image: linear-gradient(rgba(123, 27, 45,0.7), 10%, rgba(0,0,0,0.90)), url('imagens/competicao.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 150px;
+    padding: 60px;
+}
+
+table{   
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+
+.tabela-h1{
+    font-family: var(--fonte-titulos);
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor4);
+}
+
+.emoji-trofeu::after{
+    content: '\1F3C6';
+    padding: 5px;
+}
+
+caption{
+    color: var(--cor4);
+    font-family: var(--fonte-textos);
+    font-weight: 500;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ table tr, td, th{
+    border: 1px solid var(--cor4);
+    border-collapse: collapse;
+    padding: 10px;
+    color: var(--cor4);
+ }
+
+ table th{
+    font-family: var(--fonte-titulos);
+    font-size: 25px;
+    font-weight: 500;
+    font-variant: small-caps;
+ }
+
+ table td{
+    font-family: var(--fonte-textos);
+    font-size: 17px;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-align: center;
+ }
+
+ .destaque{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.747)), url('imagens/competicao.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+/* rodape */
+
+footer{  
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+    padding:22px 31px 10px 31px;
+    max-width: 100%;
+
+    background-color: var(--cor5);
+    color:var(--cor1);
+    font-size: 15px;
+    font-family: var(--fonte-textos);
+    font-weight: 600;
+    line-height: 30px;
+}
+
+footer li{
+    cursor: pointer;
+    
+}
+
+footer h4{
+    font-family: var(--fonte-titulos);
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.icones img{
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+}
+
+
+.twt{
+    margin: 0px 30px 0px 30px;
+}
+
+ /* resposividade-mobile */
+
+@media screen and (max-width:415px){
+    .fundo-cabecalho{
+        height: auto;
+    }
+
+    .logo img{
+        width: 138px;
+    }
+
+    header{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 30px;
+    }
+
+    .menu{
+        display: flex; 
+        flex-direction: column;
+    }
+    .menu a{
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .btn-01{
+        margin:0px;
+        padding: 0px;
+        gap: none;
+    }
+
+    .conteudo-meio-container p{
+        margin: auto;     
+    }   
+
+    /* proximos eventos */
+    .imagens {
+        flex-direction: column;
+    }   
+
+    .imagens img{
+        max-width: none;
+    }
+
+    /* vinhos */
+    .vinho-geral{
+        flex-direction: column;
+    }
+
+    /* loja  */
+    aside p{
+        padding-bottom: 10px;
+    }
+
+    .loja-fisica{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        }
+
+    .loja-fisica img{
+        width: 300px;
+        gap: 0rem;
+        margin-top: 0px;
+    }
+
+    .loja-fisica img:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
+
+    /* distancia entre conteudo */
+    .fundo-tabela{
+        margin-bottom: 50px;
+        height: auto;
+    }
+
+    /* rodape */
+    footer{
+        flex-direction: column;
+    }
+
+}
+   
