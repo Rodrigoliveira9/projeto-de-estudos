@@ -1,0 +1,783 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --font-padrao:Arial, Helvetica, sans-serif;
+    --font-01:'Poppins', sans-serif;;
+
+    --cor1:white;
+    --cor2:black;
+    --cor3:#FFEB33;
+    --cor4:#fad018;
+    --cor5:#2600AD;
+    --cor6:#7955FA;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: none;
+}
+/* cabeçalho */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 50px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+}
+
+nav li{
+    color: var(--cor5);
+    margin: 50px;
+    padding: 5px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+}
+
+nav li:hover{
+    background-color: var(--cor3);
+    padding: 5px;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+}
+
+.cabecalho-login{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor5);
+}
+
+.cabecalho-login p{
+    margin: 15px;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.cabecalho-login p:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    padding: p5x;
+    transition-duration: 0.3s;
+
+}
+
+.cabecalho-botao{
+    background-color: var(--cor3);
+    padding: 5px;
+    color: var(--cor5);
+    border-radius: 9px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cabecalho-botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Conheça-a-empresa */
+
+main{
+    background-image: linear-gradient(rgb(0,0,0,0.9) 50%, rgb(0,0,0,0.6 )), url('imagens/fundo01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: auto;
+}
+
+main h1{
+    padding: 20px;
+    text-align: center;
+    font-family: var(--font-01);
+    font-size: 3.5em;
+    font-weight: 700;
+    font-variant: small-caps;
+    color: var(--cor4);
+}
+
+main h2{
+    padding: 5px;
+    text-align: center;
+    font-family: var(--font-01);
+    font-size: 2em;
+    font-weight: 500;
+    font-variant: small-caps;
+    color: var(--cor4);
+
+}
+
+main p{
+    padding: 20px 30px 10px 30px;
+    width: 900px;
+    max-width: 100%;
+    margin: auto;
+    text-align: justify;
+    line-height: 40px;
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 3%;
+    color: var(--cor1);
+}
+
+main button{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    padding: 5px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+.principal-botao{
+    padding: 5px;
+    text-align: center;
+}
+
+/* oportunidade */
+
+.boneco1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.boneco1 img{
+    width: 250px;
+    max-width: 100%;
+}
+
+.boneco1 p{
+    text-align: justify;
+    margin-right: 90px;
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 50px;
+    text-indent: 3%;
+}
+
+.boneco1-botao button{
+    padding: 10px;
+    background-color: var(--cor4);
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.boneco1-botao{
+    text-align: center;
+    padding: 20px;
+}
+
+.boneco1-botao:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/* fique atento */
+
+section h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--font-01);
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--cor5);
+}
+
+.boneco2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.boneco2 img{
+    width: 250px;
+    max-width: 100%;
+}
+
+.boneco2 p{
+    text-align: justify;
+    margin-left: 90px;
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 30px;
+    text-indent: 3%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section input{
+    background-color: var(--cor4);
+    color:var(--cor5);
+    text-align: center;
+    border-radius: 9px;
+}
+
+.formulario input{
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: small-caps;
+    border: 2px solid to var(--cor5);
+}
+
+.formulario button{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    padding: 5px;
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/* alguns de nossos serviços */
+
+aside{
+    background-color: var(--cor4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+aside img{
+    width: 300px;
+    height: 250px;
+    border-radius:  9px 9px 0px 0px;
+    box-shadow: 1px 0px 20px 8px rgba(255, 255, 255, 0.733);
+}
+
+aside img:hover{
+    transform: scale(1.1);
+}
+
+.obra{
+    background-color:var(--cor1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius:  9px 9px 9px 9px;
+    padding: 15px 15px 0px 15px;
+}
+
+ul{
+    display: flex;
+    flex-direction: rox;
+}
+
+ul li{
+    margin: 10px;
+}
+
+.projeto h2 {
+    color: var(--cor5);
+    background-color: var(--cor4);
+    text-align: center;
+    font-family: var(--font-01);
+    font-size: 2.5em;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.conteudo h3{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 5px;
+    margin: 10px;
+    border-left: 2px solid  var(--cor4) ;
+}
+
+.conteudo p{
+    color: var(--cor4);
+    font-family: var(--font-01);
+    font-size: 1.2em;
+    font-weight: 700;
+    text-shadow: 0px .5px var(--cor5);
+}
+
+.conteudo li{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+/* tabela-orçamento */
+.tabelageral h3{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tabelageral p{
+    color: var(--cor2);
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 400;
+    text-align:justify;
+    width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.tabela{
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.tabela caption{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tabela th{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    border: 1px solid black;
+    font-family: var(--font-01);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.tabela tr, td{
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    font-family: var(--font-01);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tabelageral h4{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;    
+}
+
+.destaque{
+    background-color: var(--cor4);
+    color: var(--cor5);
+}
+
+.agendar{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.agendar button{
+    background-color: var(--cor4);
+    color:var(--cor5);
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.agendar button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.botoestabela{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.botoestabela button{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    width: 200px;
+    padding: 3px;
+    margin: 30px;
+    border-radius: 9px;
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.botoestabela button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+/* financiamento */
+
+.fundo-financiamento{
+    height: 400px;
+    background-color: black;
+    background-image: linear-gradient(rgb(0,0,0,0.9) 50%, rgb(0,0,0,0.6)), url('imagens/fundo02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo-financiamento h1{
+    color: var(--cor4);
+    text-align: center;
+    font-family: var(--font-01);
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.fundo-financiamento p{
+    color: var(--cor1);
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-indent: 3%;
+    text-align: justify;
+    margin: auto;
+    max-width: 100%;
+    width: 900px;
+    padding: 20px 30px 10px 30px;
+}
+
+.botao-fin{
+    text-align: center;
+}
+
+.botao-fin button{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    padding: 5px;
+    font-family: var(--font-01);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Nossa equipe */
+
+.nossa-equipe h1{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 2em;
+    font-weight: 600;
+    padding: 30px;
+
+}
+
+.equipe-geral img{
+    width: 200px;
+    height: 150px;
+}
+
+.equipe-geral{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.nome-equipe p{
+    color: var(--cor5);
+    text-align: center;
+    font-family: var(--font-01);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cadastro-equipe-geral{
+    text-align: center;
+    padding: 30px;
+}
+
+.cadastro-equipe-geral p{
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.cadastro-equipe{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.cadastro-equipe input{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--cor5);
+}
+
+.but-enviar button{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+.but-enviar button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+/* rodapé*/
+
+footer{
+    background-color: var(--cor4);
+    color: var(--cor5);
+
+    display: flex;
+    justify-content: center;
+
+    gap: 10rem;
+    margin-top: 30px;
+    padding: 20px;
+
+    font-family: var(--font-01);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.divisao{
+    display: flex;
+    flex-direction: column;
+}
+
+.divisao h4{
+    margin-bottom: 5px;
+    border-left: 2px solid var(--cor5);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.divisao-img{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.divisao-img img{
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* mobile */
+
+@media screen and (max-width: 415px){
+
+    /* cabeçalho */
+    header{
+        flex-direction: column;
+    }
+
+    header img{
+        margin: auto;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav li{
+        margin: 5px;
+    }
+
+    main p{
+        width: 100%;
+        width: 300px;
+        padding-right: 10px;
+    }
+    /* oportunidade */
+
+    .boneco1{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .boneco1 img{
+        width: 150px;
+        max-width: 100%;
+    }
+
+    .boneco1 p{
+        padding: 15px;
+        margin: auto;
+    }
+
+    .boneco1-botao{
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* fique atento */
+    .boneco2{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+
+    }
+
+    .boneco2 img{
+        width: 150px;
+        max-width: 100%;
+    }
+
+    .boneco2 p{
+        padding: 15px;
+        margin: auto;
+    }
+
+    /* tabela-orçamento */
+      .tabela tr, td{
+        width: 100px;
+    }
+
+    .tabelageral p{
+        width: 300px;
+        max-width: 100%;
+    
+    }
+
+    /*financiamento*/
+
+    .fundo-financiamento{
+        margin: auto;
+        height: auto;
+    }
+
+    .fundo-financiamento p{
+        width: 300px;
+        max-width: 100%;
+    }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .obra{
+        margin: 10px;
+    }
+
+    /* Nossa equipe */
+    .equipe-geral img{
+        width: 150px;
+        height:100px;
+    }
+
+    .equipe-geral{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    } 
+    .cadastro-equipe{
+        flex-direction: column;
+    }
+
+        /* rodape */
+    footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .divisao-img{
+        flex-direction: column;
+        align-items: center;
+    }    
+
+}
